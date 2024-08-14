@@ -1,0 +1,22 @@
+@keyframes arrowMove {
+  to {
+    transform: translate3d(0rem, 1rem, 0);
+  }
+}
+
+@keyframes fade-in {
+  from{
+    scale: 0.8;
+    opacity: 0;
+  }
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  to {
+    opacity: 0;
+  }
+}
